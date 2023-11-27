@@ -1,0 +1,120 @@
+/* CSS Reset */
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/abs-1850926_1280.jpg);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Left CSS */
+
+.left{
+      /* border: 2px solid red; */
+      display: inline-block;
+      top: 18px;
+      position: absolute;
+      left: 60px;
+}
+.left img{
+           width: 111px;
+           filter: invert(100%);
+           
+        
+}
+.left div{
+    text-align: center;
+    line-height: 17px;
+    font-size: 17px;
+}
+
+
+/* Centre CSS */
+
+.centre{
+       /* border: 2px solid green; */
+       display: block;
+       width: 37%;
+       margin: 12px auto;
+       top: 20px;
+       
+}
+
+.navbar {
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 13px;
+}
+.navbar li a{
+   color: white;
+text-decoration: none;
+padding: 34px 16px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: rgb(230, 221, 221);
+}
+
+/* Right CSS */
+
+.right{
+       /* border: 2px solid yellow; */
+       display: inline-block;
+       position: absolute;
+       right: 34px;
+       top: 24px;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(231, 218, 218)
+}
+
+
+/* Out of Header CSS */
+
+.conatiner {
+    border: 2px solid white;
+    margin: 72px 115px;
+    padding: 76px;
+    width: 30%;
+    border-radius: 28px;
+}
+
+
+.form-group input{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    width: 360px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.conatiner h1{
+    text-align: center;
+}
+.conatiner button{
+    display: block;
+    width: 36%;
+    margin: auto;
+}
